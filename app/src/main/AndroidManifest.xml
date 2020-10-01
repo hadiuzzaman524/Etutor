@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nested.etutor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_jamanlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_jamanlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Result"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".DisplayUserProfile"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".UserProfile"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".splashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MyProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Forgetpassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".DisplayStudents"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayTeachers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PostForTution"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".Teacher_Account"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Homepage_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Account"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Signuppagedesign"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Loginpagedesign"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Play_videos"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:name=".Pdf_view" />
+        <activity android:name=".G_9_books" />
+        <activity android:name=".G_8_books" />
+        <activity android:name=".G_7_books" />
+        <activity android:name=".G_6_books" />
+        <activity android:name=".G_5_books" />
+        <activity android:name=".G_4_books" />
+        <activity android:name=".G_3_books" />
+        <activity android:name=".G_2_books" />
+        <activity android:name=".G_1_books" />
+        <activity
+            android:name=".PostTution_layout"
+            android:screenOrientation="portrait"
+             />
+        <activity
+            android:name=".AsStudent_layout"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FindTuition_layout"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".FindTeacher_layout"
+            android:screenOrientation="portrait"
+           /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6092741281885131~8241310035" />
+    </application>
+
+</manifest>

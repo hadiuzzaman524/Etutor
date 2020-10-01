@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "103265503937",
+    "firebase_url": "https://etutor-95964.firebaseio.com",
+    "project_id": "etutor-95964",
+    "storage_bucket": "etutor-95964.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103265503937:android:f33805438014fa284fe240",
+        "android_client_info": {
+          "package_name": "com.nested.etutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103265503937-7uj5i7csmpo2h8m88jbd8cp4h0deet68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.etutor",
+            "certificate_hash": "f24102738d6b514232b3b1958bf06033196ddb19"
+          }
+        },
+        {
+          "client_id": "103265503937-pb9v95ld77hnjfbpsqu56es7i97ch4f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgGQoVYit1jmQvOV4xlDviaS4YVY6mPi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103265503937-pb9v95ld77hnjfbpsqu56es7i97ch4f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

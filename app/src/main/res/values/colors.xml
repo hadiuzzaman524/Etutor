@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4F60BB</color>
+    <color name="colorPrimaryDark">#4F60BB</color>
+    <color name="colorAccent">#BE740B</color>
+    <color name="green">#149E1A</color>
+    <color name="blue">#098ECA</color>
+    <color name="darkyellow">#F77C58</color>
+    <color name="baguni">#BAE490</color>
+    <color name="jolpay">#0826CC</color>
+    <color name="tutorialcolor">#e3e4e7</color>
+    <color name="commoncolor">#374AAD</color>
+    <color name="studentaccountcolor">#048d79</color>
+</resources>

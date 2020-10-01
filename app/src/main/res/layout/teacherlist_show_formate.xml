@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jan 20,2020"
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+            android:id="@+id/set_teacher_date"
+            android:gravity="right"
+            android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="hadiuzzaman"
+        android:textColor="#000"
+        android:id="@+id/set_teacher_name"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/teacherheaderid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="i need a english tutor for "
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="#655D5D"
+            android:layout_marginRight="20dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:weightSum="4">
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.6"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Local Address"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_address"
+                android:textColor="#645A5A"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="keranir hat sadar rangpur"
+                android:id="@+id/set_teacher_address"
+                android:textColor="#000"
+                android:layout_marginLeft="25dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#645A5A"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_interestedclass"
+                android:text=" Interested Class"
+                android:textSize="17sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:maxLines="1"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/set_teacher_class"
+                android:text="Ten"
+
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#645A5A"
+                android:layout_marginTop="10dp"
+                android:text=" Interested Subjects"
+                android:drawableLeft="@drawable/ic_bk2"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/set_teacher_subject"
+                android:text="bangla,english,somaj,biggan"
+                android:textSize="12sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Mobile "
+                    android:drawableLeft="@drawable/ic_call"
+                    android:textColor="#645A5A"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF5722"
+                    android:text="(Tap and hold to call)"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01785304677"
+                android:textColor="#000"
+                android:maxLines="1"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/set_teacher_mobile"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qualification"
+                android:drawableLeft="@drawable/ic_university"
+                android:textColor="#645A5A"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bsc.engg in CSE"
+                android:id="@+id/set_teacher_education"
+                android:textColor="#000"
+                android:layout_marginLeft="25dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Salary"
+                android:textColor="#645A5A"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_payday"
+                android:textSize="17sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5000 BDT"
+                android:layout_marginLeft="25dp"
+                android:textColor="#FF5722"
+                android:maxLines="1"
+                android:id="@+id/set_teacher_salary"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/right1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Student_Account">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:id="@+id/student_accountid"
+               >
+          <LinearLayout
+              android:layout_width="match_parent"
+             android:background="#4F60BB"
+              android:gravity="center"
+              android:layout_marginBottom="10dp"
+              android:layout_height="85dp"
+              >
+              <TextView
+                  android:layout_gravity="center"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Fill up this required "
+                  android:textSize="30sp"
+                  android:textStyle="normal|bold"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginLeft="15dp"
+                  android:textColor="#F1EFEC"
+                  />
+          </LinearLayout>
+
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="22sp"
+                   android:text="  Short Description :"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:drawableLeft="@drawable/ic_event"
+                   />
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"
+                   android:background="@drawable/background3"
+                   android:orientation="vertical"
+                   android:layout_margin="10dp"
+                   >
+               <EditText
+
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:backgroundTint="#ffffff"
+                   android:paddingLeft="10dp"
+                   android:paddingRight="10dp"
+                   android:id="@+id/shortdiscriptionid"
+                   android:textSize="20dp">
+
+               </EditText>
+
+               </LinearLayout>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="22sp"
+                   android:text="  Name :"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#000"
+                   android:layout_marginTop="10dp"
+                   android:textStyle="bold"
+                   android:drawableLeft="@drawable/namec"
+                   />
+               <EditText
+
+                   android:layout_width="match_parent"
+                   android:layout_height="42dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:inputType="text"
+                   android:padding="10dp"
+                   android:id="@+id/student_nameid"
+                   android:background="@drawable/background2"
+                   android:textSize="20dp">
+
+               </EditText>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="22sp"
+                   android:layout_marginTop="20dp"
+                   android:text="  Local address :"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:drawableLeft="@drawable/ic_placeholder"
+                   />
+               <EditText
+
+                   android:layout_width="match_parent"
+                   android:layout_height="42dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                  android:paddingLeft="10dp"
+                 android:background="@drawable/background2"
+                   android:inputType="text"
+                   android:id="@+id/student_local_addressid"
+                   android:textSize="20dp">
+
+               </EditText>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="22sp"
+                   android:layout_marginTop="20dp"
+                   android:text="  Institute :"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:drawableLeft="@drawable/ic_institute"
+                   />
+               <EditText
+
+                   android:layout_width="match_parent"
+                   android:layout_height="42dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:paddingLeft="10dp"
+                   android:inputType="text"
+                   android:background="@drawable/background2"
+                   android:id="@+id/student_instute_id"
+                   android:textSize="20dp">
+
+               </EditText>
+
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="22sp"
+                   android:layout_marginTop="20dp"
+                   android:text="  Your class :"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:drawableLeft="@drawable/ic_classs"
+                   />
+               <EditText
+
+                   android:layout_width="match_parent"
+                   android:layout_height="42dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:paddingLeft="10dp"
+                   android:background="@drawable/background2"
+                   android:inputType="text"
+                   android:id="@+id/student_classid"
+                   android:textSize="20dp">
+
+               </EditText>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="42dp"
+                   android:textSize="22sp"
+                   android:layout_marginTop="20dp"
+                   android:text="  Interested subjects :"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:drawableLeft="@drawable/ic_bookh"
+                   />
+               <EditText
+
+                   android:layout_width="match_parent"
+                   android:layout_height="42dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:paddingLeft="10dp"
+                   android:inputType="text"
+                   android:background="@drawable/background2"
+                   android:id="@+id/student_subjectid"
+                   android:textSize="20dp">
+
+               </EditText>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="22sp"
+                   android:layout_marginTop="20dp"
+                   android:text="  Mobile number :"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:drawableLeft="@drawable/ic_telephone"
+                   />
+               <EditText
+
+                   android:layout_width="match_parent"
+                   android:layout_height="42dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:paddingLeft="10dp"
+                   android:background="@drawable/background2"
+                   android:inputType="numberDecimal"
+                   android:id="@+id/student_mobileid"
+                   android:textSize="20dp">
+
+               </EditText>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="22sp"
+                   android:layout_marginTop="20dp"
+                   android:text="  Salary you can pay :"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:drawableLeft="@drawable/ic_coin"
+                   />
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="42dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:paddingLeft="10dp"
+                   android:inputType="numberDecimal"
+                   android:id="@+id/student_salaryid"
+                   android:background="@drawable/background2"
+                   android:textSize="20dp">
+               </EditText>
+
+               <ProgressBar
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="15dp"
+                   android:visibility="gone"
+                   android:id="@+id/progressbarid"
+                   />
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="30dp"
+                   android:text="Post your information"
+                   android:textAllCaps="false"
+                   android:id="@+id/student_submitinfoid"
+                   android:textSize="20sp"
+                   android:textColor="#F5F1F1"
+                   android:background="@drawable/buttonshape"
+                   android:layout_marginBottom="20dp"
+                   />
+           </LinearLayout>
+       </LinearLayout>
+
+   </ScrollView>
+
+</LinearLayout>

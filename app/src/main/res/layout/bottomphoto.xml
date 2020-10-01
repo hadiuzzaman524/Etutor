@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save photo"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#fff"
+        android:id="@+id/savephotoid"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/canclephotoid"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape2"
+        android:layout_marginBottom="30dp"
+        />
+
+
+</LinearLayout>

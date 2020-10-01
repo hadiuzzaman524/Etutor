@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE2E2"
+    android:orientation="vertical"
+    tools:context=".PostTution_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_teacher_new" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+
+            <AutoCompleteTextView
+
+                android:id="@+id/distrctid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#504F4F"
+                android:hint=" Your District"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textColorHint="#504F4F"
+
+                android:textSize="20sp">
+
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+
+                android:id="@+id/upazilaid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#504F4F"
+                android:hint=" Your Upazilla"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textColorHint="#504F4F"
+
+                android:textSize="20sp">
+
+            </AutoCompleteTextView>
+
+            <Button
+                android:id="@+id/nextbuttonid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#2C51A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Next step"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_design">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/tutionpost_adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="7dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-6092741281885131/7699025186"/>
+    </LinearLayout>
+
+
+</LinearLayout>

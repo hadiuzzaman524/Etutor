@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MyProfile"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+               >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4F60BB"
+                    android:textSize="25sp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="ABOUT US"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:text="eTutor is totally free for students and teachers. eTutor is really helpful app for you if you are a student or teacher."
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FEATURES"
+                android:textColor="#4F60BB"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                   android:src="@drawable/bks"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    Books"
+                    android:textSize="27sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_nine_icon"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    Tutorials"
+                    android:textSize="27sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_tea"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Teachers"
+                    android:textSize="27sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_std"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    Students"
+                    android:textSize="27sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginBottom="5dp"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/exam"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    All board result"
+                    android:textSize="27sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginBottom="5dp"
+
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+         />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEVELOPER"
+                android:textColor="#4F60BB"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+
+                android:gravity="center_horizontal"
+                />
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:civ_border_color="#3f51b5"
+                app:civ_border_width="2dp"
+                app:civ_shadow="true"
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                app:civ_shadow_radius="4"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mypict"
+                app:civ_shadow_color="#3f51b5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hello there!\nThis is Hadiuzzaman, currently studying CS and trying to build a community that reduces the complication of finding home tutors or students for tuition through this app. Hope, users will find it helpful. As this is the first version of this app, hopefully you'll share all your suggestions. Also, rating will help to get some ideas about this app. So, don't forget to rate. All the best!"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"
+                android:gravity="left"
+                android:textColor="#000"
+                android:textStyle="normal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:text="
+\nFor icon i used,\nhttps://www.flaticon.com \nFor tutorials,\nhttps://www.youtube.com/user/OnnorokomPathshala\nhttps://www.youtube.com/channel/UCnXmuphQV3fxs51znrr4eng"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONTACT"
+                android:textColor="#4F60BB"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Md.Hadiuzzaman"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="hadiuzzaman908@gmail.com\n01785304677"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="CSE,3rd year(january,2020),BAUST"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
