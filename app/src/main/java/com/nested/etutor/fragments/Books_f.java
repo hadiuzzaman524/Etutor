@@ -13,17 +13,16 @@ import android.view.ViewGroup;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
-import com.nested.etutor.G_1_books;
-import com.nested.etutor.G_2_books;
-import com.nested.etutor.G_3_books;
-import com.nested.etutor.G_4_books;
-import com.nested.etutor.G_5_books;
-import com.nested.etutor.G_6_books;
-import com.nested.etutor.G_7_books;
-import com.nested.etutor.G_8_books;
-import com.nested.etutor.G_9_books;
-import com.nested.etutor.Homepage_activity;
-import com.nested.etutor.Play_videos;
+import com.nested.etutor.screens.books.G_1_books;
+import com.nested.etutor.screens.books.G_2_books;
+import com.nested.etutor.screens.books.G_3_books;
+import com.nested.etutor.screens.books.G_4_books;
+import com.nested.etutor.screens.books.G_5_books;
+import com.nested.etutor.screens.books.G_6_books;
+import com.nested.etutor.screens.books.G_7_books;
+import com.nested.etutor.screens.books.G_8_books;
+import com.nested.etutor.screens.books.G_9_books;
+import com.nested.etutor.screens.VideosPlayer;
 import com.nested.etutor.R;
 
 public class Books_f extends Fragment implements View.OnClickListener {
@@ -156,7 +155,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
 
         //tutorials
         if (v.getId() == R.id.voneid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "one");
             startActivity(intent);
             //for ads...
@@ -169,7 +168,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
         }
 
         if (v.getId() == R.id.vtwoid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "two");
             startActivity(intent);
             //for ads...
@@ -182,7 +181,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
         }
 
         if (v.getId() == R.id.vthreeid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "three");
             startActivity(intent);
             //for ads...
@@ -194,7 +193,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
         }
 
         if (v.getId() == R.id.vfourid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "four");
             startActivity(intent);
             //for ads...
@@ -206,7 +205,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
         }
 
         if (v.getId() == R.id.vfiveid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "five");
             startActivity(intent);
             //for ads...
@@ -218,7 +217,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
         }
 
         if (v.getId() == R.id.vsixid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "six");
             startActivity(intent);
             //for ads...
@@ -230,7 +229,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
         }
 
         if (v.getId() == R.id.vsevenid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "seven");
             startActivity(intent);
             //for ads...
@@ -242,7 +241,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
         }
 
         if (v.getId() == R.id.veightid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "eight");
             startActivity(intent);
             //for ads...
@@ -254,7 +253,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
         }
 
         if (v.getId() == R.id.vnineid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "nine");
             startActivity(intent);
 
@@ -267,7 +266,7 @@ View view=inflater.inflate(R.layout.fragment_books_f, container, false);
         }
 
         if (v.getId() == R.id.vhscid) {
-            Intent intent = new Intent(getContext(), Play_videos.class);
+            Intent intent = new Intent(getContext(), VideosPlayer.class);
             intent.putExtra("jaman", "hsc");
             startActivity(intent);
             //for ads...

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#EFE2E2"
-    tools:context=".G_6_books">
+    tools:context=".screens.books.G_6_books">
 
 
     <ListView

@@ -14,73 +14,72 @@
         android:roundIcon="@drawable/ic_jamanlogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Result"
+        <activity android:name=".screens.Result"
             android:screenOrientation="portrait"
             ></activity>
-        <activity android:name=".DisplayUserProfile"
+        <activity android:name=".screens.DisplayUserProfile"
             android:screenOrientation="portrait"/>
-        <activity android:name=".UserProfile"
+        <activity android:name=".screens.UserProfile"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".splashScreen"
+            android:name=".SplashScreen"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".MyProfile"
+            android:name=".screens.MyProfile"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Forgetpassword"
+            android:name=".screens.Forgetpassword"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".DisplayStudents"
+            android:name=".screens.DisplayStudents"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DisplayTeachers"
+            android:name=".screens.DisplayTeachers"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PostForTution"
+            android:name=".screens.PostForTution"
             android:screenOrientation="portrait"
             />
         <activity
-            android:name=".Teacher_Account"
+            android:name=".screens.TeacherPostForm"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".Homepage_activity"
+            android:name=".screens.Homepage_activity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Student_Account"
+            android:name=".screens.StudentsPostForm"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".Signuppagedesign"
+            android:name=".screens.Signuppagedesign"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".Loginpagedesign"
+            android:name=".screens.Loginpagedesign"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".Play_videos"
+            android:name=".screens.VideosPlayer"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
-        <activity android:name=".Pdf_view" />
-        <activity android:name=".G_9_books" />
-        <activity android:name=".G_8_books" />
-        <activity android:name=".G_7_books" />
-        <activity android:name=".G_6_books" />
-        <activity android:name=".G_5_books" />
-        <activity android:name=".G_4_books" />
-        <activity android:name=".G_3_books" />
-        <activity android:name=".G_2_books" />
-        <activity android:name=".G_1_books" />
+        <activity android:name=".screens.books.G_9_books" />
+        <activity android:name=".screens.books.G_8_books" />
+        <activity android:name=".screens.books.G_7_books" />
+        <activity android:name=".screens.books.G_6_books" />
+        <activity android:name=".screens.books.G_5_books" />
+        <activity android:name=".screens.books.G_4_books" />
+        <activity android:name=".screens.books.G_3_books" />
+        <activity android:name=".screens.books.G_2_books" />
+        <activity android:name=".screens.books.G_1_books" />
         <activity
-            android:name=".PostTution_layout"
+            android:name=".screens.PostTution_layout"
             android:screenOrientation="portrait"
              />
         <activity
-            android:name=".AsStudent_layout"
+            android:name=".screens.AsStudent_layout"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -91,11 +90,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FindTuition_layout"
+            android:name=".screens.FindTuition_layout"
             android:screenOrientation="portrait"
             />
         <activity
-            android:name=".FindTeacher_layout"
+            android:name=".screens.FindTeacher_layout"
             android:screenOrientation="portrait"
            /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data

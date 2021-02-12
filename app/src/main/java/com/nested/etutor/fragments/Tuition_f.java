@@ -10,11 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.nested.etutor.FindTeacher_layout;
-import com.nested.etutor.FindTuition_layout;
-import com.nested.etutor.Homepage_activity;
-import com.nested.etutor.PostForTution;
-import com.nested.etutor.PostTution_layout;
+import com.nested.etutor.screens.FindTeacher_layout;
+import com.nested.etutor.screens.FindTuition_layout;
+import com.nested.etutor.screens.PostForTution;
+import com.nested.etutor.screens.PostTution_layout;
 import com.nested.etutor.R;
 
 

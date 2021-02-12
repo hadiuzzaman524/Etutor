@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.nested.etutor.R;
-import com.nested.etutor.Result;
+import com.nested.etutor.screens.Result;
 
 public class Result_f extends Fragment implements View.OnClickListener {
 private CardView psc,jsc,masters,honers,eleven,polit,degree,nu;

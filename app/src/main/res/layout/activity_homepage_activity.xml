@@ -6,7 +6,7 @@
     android:id="@+id/navigation_drawerid"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Homepage_activity"
+    tools:context=".screens.Homepage_activity"
     tools:openDrawer="start">
 <LinearLayout
     android:layout_width="match_parent"
